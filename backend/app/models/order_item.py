@@ -46,10 +46,7 @@ class OrderItem(Base, UUIDMixin):
         back_populates="items"
     )
 
-    product = relationship(
-        "Product",
-        back_populates="order_items"
-    )
+    product = relationship("Product")
     @property
     def product_name(self):
-        return self.product.name
+        return self.product.full_name
