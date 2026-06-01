@@ -14,7 +14,7 @@ The entire application is containerized and deployed using modern cloud platform
 
 ### Frontend
 
-ethara-assignment-git-main-xkakshils-projects.vercel.app
+https://ethara-assignment-git-main-xkakshils-projects.vercel.app
 
 ### Backend
 
