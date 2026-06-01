@@ -29,7 +29,6 @@ class OrderItemResponse(BaseModel):
     )
 
     product_id: UUID
-    product_name: str
 
     quantity: int
     unit_price: Decimal
