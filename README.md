@@ -338,14 +338,14 @@ Create:
 Example:
 
 ```env
-POSTGRES_USER=postgres
+POSTGRES_USER=
 POSTGRES_PASSWORD=postgres
-POSTGRES_DB=inventory_db
+POSTGRES_DB=inventor
 
 DB_HOST=postgres
 DB_PORT=5432
 
-DATABASE_URL=postgresql+psycopg://postgres:postgres@postgres:5432/inventory_db
+DATABASE_URL=Your URL HERE
 ```
 
 ---
