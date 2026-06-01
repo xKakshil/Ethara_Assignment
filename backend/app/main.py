@@ -43,6 +43,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "https://ethara-assignment-dobxjct0d-xkakshils-projects.vercel.app",
+        "https://ethara-assignment.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
