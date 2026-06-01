@@ -37,4 +37,4 @@ class Order(Base, UUIDMixin, TimestampMixin):
     )
     @property
     def customer_name(self):
-       return self.customer.name
+       return self.customer.full_name
